@@ -1,0 +1,100 @@
+.feed-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    padding: 2rem 0 0 2rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+  }
+  
+  .second{
+    margin:3rem 0 0 0;
+  }
+  .feed-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .feed-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem -0.5rem;
+    gap: 1rem;
+    justify-content: flex-start;
+  }
+  
+  .feed-grid .card {
+    width: 200px;
+    background-color: #1a1a1a;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin:1rem 1rem 0 0;
+    border-radius: 0.5rem;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+    background-color: #2b2b2b;
+  }
+  
+  .track-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  
+  .card:hover .track-image {
+    transform: scale(1.05);
+  }
+  
+  .details {
+    padding: 1rem;
+  }
+  
+  .track-name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #fff;
+  }
+  
+  .artist-name {
+    font-size: 12px;
+    color: #b3b3b3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .feed-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .feed-container::-webkit-scrollbar-track {
+    background: #1a1a1a;
+  }
+  
+  .feed-container::-webkit-scrollbar-thumb {
+    background-color: #4a4a4a;
+    border-radius: 8px;
+  }
+  
+  .feed-container::-webkit-scrollbar-thumb:hover {
+    background-color: #666666;
+  }
+  
+  .feed-container::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+  }
+  

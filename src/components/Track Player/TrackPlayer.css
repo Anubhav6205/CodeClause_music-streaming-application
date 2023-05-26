@@ -1,0 +1,31 @@
+.track-player-container {
+  background-color: rgb(45, 45, 45);
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem 2rem;
+  height: 62%;
+
+}
+
+.main-album-name {
+
+  font-size: 5rem;
+  font-weight: bold;
+  white-space: nowrap;
+  height: 30%;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding:0 2rem 0 0;
+}
+
+.main-album-name p {
+  margin: 0;
+}
+
+.artist-name {
+  font-size: 1.2rem;
+  color: gray;
+  margin-bottom: 1rem;
+  height: 30%;
+}

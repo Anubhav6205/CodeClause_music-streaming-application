@@ -1,0 +1,46 @@
+.album-details {
+    background-color: #252222;
+   
+    padding: 20px;
+    color: white;
+}
+
+.album-details-container {
+    margin: 1.5rem 0 0 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.album-name {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.marquee {
+    white-space: nowrap;
+    display: inline-block;
+    animation:marquee-effect 8s linear infinite;
+    padding-left: 100%;
+}
+
+@keyframes marquee-effect {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+    
+}
+
+.album-info {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.album-release-date {
+    font-size: 14px;
+    color: #777777;
+}
+

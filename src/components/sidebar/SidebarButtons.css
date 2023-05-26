@@ -1,0 +1,51 @@
+.buttons-container {
+    height: 5rem;
+    width: 5rem;
+    margin: 0 0 .5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    color: rgba(199, 199, 199, 0.8);
+      
+}
+
+
+
+
+.buttons-container:hover {
+    color: rgb(255, 255, 255);
+}
+
+.sidebar-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 1;
+  
+
+
+}
+
+
+.sidebar-icon {
+    font-size: 1.4rem;
+}
+
+.sidebar-title {
+    font-size: small;
+}
+
+.buttons-container.active {
+
+    border-radius: 1rem;
+    transition: .2s ease-in;
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+
+}
+
+a {
+    text-decoration: none;
+
+}

@@ -1,0 +1,7 @@
+
+.screen-container{
+    width:calc(100% - 100px);
+    height: 100%;
+    background-color: rgb(226, 174, 43);
+   
+}
