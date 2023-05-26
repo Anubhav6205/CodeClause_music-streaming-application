@@ -4,7 +4,7 @@ Jambox is a feature-rich music application built with React JS, offering a highl
 
 Steps to download Jambox from my GitHub repository and run it:
 
-1,Open your GitHub repository page for Jambox.
+1.Open your GitHub repository page for Jambox.
 
 2.Look for the green "Code" button and click on it.
 
