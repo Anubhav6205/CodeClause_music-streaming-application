@@ -20,11 +20,17 @@ Steps to download Jambox from my GitHub repository and run it:
 
 8.Once the dependencies are installed successfully, you can start the development server by running the following command: npm run dev
 
-9.Wait for the development server to compile the code and start. It will display the localhost URL where the app is running (e.g., http://localhost:3000).
+9.Wait for the development server to compile the code and start. It will display the localhost URL where the app is running (e.g., http://localhost:5173).
 
 10.Open a web browser and enter the URL mentioned in the previous step.
 
 11.Congratulations! Jambox should now be running on your local host, and you can explore its interactive interface and enjoy the music streaming features.
+
+IMPORTANT -
+
+1.Make sure 'http://localhost:5173' is not preoccupied by any other application as it app will run only on mentioned port. (if app does not run on the mentioned port, dashboard will not be accessible
+
+2.If no dashboard is visible after logging in, the token has expired . Just right click, open inspect, then application, right click on token and delete it . Then refresh the page to access the app.
 
 Have a look at Jambox:
 
