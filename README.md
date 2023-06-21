@@ -3,7 +3,7 @@ Jambox: A Sophisticated React JS Music App
 Jambox is a feature-rich music application built with React JS, offering a highly interactive and visually appealing user interface that surpasses several renowned music streaming platforms. With Jambox, users can enjoy a seamless music experience by playing songs, creating personalized playlists, accessing a wide range of genres, exploring radios in multiple languages, and discovering trending albums, tracks, and songs from diverse artists. Whether you're a music enthusiast or seeking new musical inspirations, Jambox has everything you need. Elevate your music journey with Jambox today.
 
 Have a look at Jambox=>
-https://github.com/Anubhav6205/JamBox/assets/82750157/6d062eed-2c73-4418-b046-87c261096d87****
+https://github.com/Anubhav6205/JamBox/assets/82750157/6d062eed-2c73-4418-b046-87c261096d87
 
 Steps to download Jambox from my GitHub repository and run it:
 
